@@ -1,5 +1,5 @@
 # Neo4j + Express.js Boilerplate Template
-Boilerplate code for quickly getting an Express.js server up and running with some template code for a simple API that incorporates Neo4j. Using the Neo4j driver provided by Neo4j, this slim repository can be expanded upon to build out a large backend API infrastructure that is linked to a graph database. 
+Boilerplate code for quickly getting an Express.js server up and running with some template code for an extendable API that incorporates Neo4j. Using the Neo4j driver provided by Neo4j, this slim repository can be expanded upon to build out a large backend API infrastructure that is linked to a graph database. 
 
 ## Requirements
 - Ensure [Node.js](https://nodejs.org/en/) is installed on your system

@@ -18,7 +18,7 @@ router.post('/neo4j_post', async function (req, res, next) {
     //Passing in "name" parameter in body of POST request
     let { name } = req.body;
     let string = await neo4j_calls.create_user(name);
-    res.status(200).send(string)
+    res.status(200).send("User named " + string + " created")
     return 700000;
     //res.status(200).send("test delete")
 })
